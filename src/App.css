@@ -1,0 +1,65 @@
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: yellowgreen;
+  margin-top: 1rem;
+  font-weight: 900;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+button {
+  background: rgb(149, 19, 169);
+  /* padding: 1rem; */
+  margin: 3rem 3% 3rem 0;
+  max-width: 333px;
+  width: 20%;
+  height: 50px;
+  box-shadow: 3px 3px 8px 3px rgb(174, 171, 171);
+  color: white;
+  border: 2px solid rgb(149, 19, 169);
+  border-radius: 4px;
+}
+
+.imdb {
+  background: yellowgreen;
+  max-width: 45%;
+  padding-left: 2%;
+  border-radius: 2px;
+}
+
+.parentCard {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.card {
+  width: 80%;
+}
+
+img {
+  max-width: 70%;
+  height: 92%;
+  border: 6px solid grey;
+  border-radius: 3px;
+  margin: 1rem 0 0rem 3%;
+}
+
+button:hover {
+  transform: translate(0px, 10px);
+  background: magenta;
+}
+
+h3 {
+  color: orangered;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.displayBox {
+  width: 110%;
+  transform: translate(-20px, 0);
+}
